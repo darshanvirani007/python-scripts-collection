@@ -45,7 +45,28 @@ Each script in this collection comes with its own usage instructions. Navigate t
 
 Here's a brief overview of the scripts available in this collection:
 
-1. **script1.py**: Description of what this script does.
+1. **report_generator.py**: Fake Medical Report Generator(Colonoscopy Reports Generator).
+    ## Features
+    
+    - **Synthetic Report Generation:** Generates synthetic medical reports with positive and negative symptoms.
+    - **Customizable Parameters:** Allows customization of report length, symptom occurrence, and other parameters.
+    
+    ## Usage
+    
+    1. Run the "report_generator.py" module to create synthetic medical reports.
+    2. Utilize these synthetic reports for testing and training machine learning models or other purposes.
+    
+    ## Dependencies
+    
+    - Python 3.x
+    - faker
+    - reportlab
+    
+    ## Usage Example
+    
+    ```bash
+    python report_generator.py
+
 2. **medical_reports_classifier.py**: This Python script automates the classification of medical reports into positive and negative symptom categories using natural language processing techniques. It utilizes machine learning algorithms from the scikit-learn library to analyze the text content of PDF reports. The classification is based on predefined lists of positive and negative symptoms commonly found in medical reports.
 
     ## Features
