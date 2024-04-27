@@ -12,8 +12,6 @@ I'm a student currently learning Python and automation. This repository serves a
 2. [Usage](#usage)
 3. [Scripts](#scripts)
 4. [Contributing](#contributing)
-5. [Learning](#learning)
-6. [License](#license)
 
 ## Installation
 
