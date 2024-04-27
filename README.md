@@ -46,9 +46,32 @@ Each script in this collection comes with its own usage instructions. Navigate t
 Here's a brief overview of the scripts available in this collection:
 
 1. **script1.py**: Description of what this script does.
-2. **script2.py**: Description of what this script does.
-3. **script3.py**: Description of what this script does.
-4. ...
+2. **medical_reports_classifier.py**: This Python script automates the classification of medical reports into positive and negative symptom categories using natural language processing techniques. It utilizes machine learning algorithms from the scikit-learn library to analyze the text content of PDF reports. The classification is based on predefined lists of positive and negative symptoms commonly found in medical reports.
+
+    ## Features
+    
+    - **PDF Text Extraction:** Extracts text content from PDF files containing medical reports.
+    - **Symptom Classification:** Classifies reports based on the presence of positive or negative symptoms.
+    - **Patient Name Extraction:** Attempts to extract patient names from report texts.
+    - **Output Generation:** Outputs classification results to an Excel file for further analysis.
+    
+    ## Usage
+    
+    1. Place the medical reports (in PDF format) in a designated directory.
+    2. Run the script, which will process each report, classify it, and generate an Excel file with the classification results.
+    3. Review the Excel file to analyze the classification outcomes.
+    
+    ## Dependencies
+    
+    - Python 3.x
+    - pandas
+    - PyPDF2
+    - scikit-learn
+    
+    ## Usage Example
+    
+    ```bash
+    python medical_report_classification.py
 
 ## Contributing
 
@@ -56,10 +79,3 @@ Contributions are welcome! If you have a Python script that you think would be u
 
 If you find any issues or have suggestions for improvement, please open an issue on the repository's issue tracker.
 
-## Learning
-
-As a student learning Python and automation, this repository can serve as a valuable resource for practicing your skills and exploring real-world applications. Don't hesitate to experiment with the scripts and modify them to suit your learning goals.
-
-## License
-
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
